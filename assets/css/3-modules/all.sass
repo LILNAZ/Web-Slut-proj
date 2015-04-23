@@ -1,0 +1,63 @@
+header
+	width: 100%
+	height: 600px
+	background: $bg-color-1
+
+	nav
+		position:  absolute
+		right: 20px
+		top: 20px
+
+		a
+			margin-left: 20px
+			font-size: 16px
+			@include transition(0.4s)
+
+	div
+		@include clearfix
+		position: relative
+		width: 315px
+		margin: 0 auto
+		top: 50%
+		transform:  translateY(-50%)
+
+		h1
+			padding: 0
+			margin: 0
+			font-weight: 300
+			text-transform: uppercase
+			text-align: right
+			color: darken(#c0392b, 20%)
+		p
+			color: #e74c3c
+			text-align: center
+
+footer
+	width: 100%
+	height: 500px
+	background: $bg-color-1
+
+	nav
+		position:  absolute
+		right: 20px
+
+		a
+			margin-left: 20px
+			font-size: 16px
+			@include transition(0.4s)
+
+	div
+		@include clearfix
+		position: relative
+		width: 315px
+		margin: 0 auto
+		top: 50%
+		transform:  translateY(-50%)
+
+		h1
+			padding: 0
+			margin: 0
+			font-weight: 300
+			text-transform: uppercase
+			text-align: right
+			color: darken(#c0392b, 20%)

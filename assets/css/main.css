@@ -75,10 +75,10 @@ a:hover, a:focus {
   color: #f0b37e; }
 
 ::selection {
-  background: #1abc9c; }
+  background: #f1c40f; }
 
 ::-moz-selection {
-  background: #1abc9c; }
+  background: #f1c40f; }
 
 img::selection {
   background: transparent; }
@@ -87,13 +87,101 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #1abc9c; }
+  -webkit-tap-highlight-color: #f1c40f; }
 
 body {
   background: #FFFFFF;
   font-size: 14px;
   line-height: 1.6;
   font-family: "Open Sans" sans-serif;
-  color: black;
+  color: #999999;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
+
+header {
+  width: 100%;
+  height: 600px;
+  background: #121212; }
+  header nav {
+    position: absolute;
+    right: 20px;
+    top: 20px; }
+    header nav a {
+      margin-left: 20px;
+      font-size: 16px;
+      -webkit-transition: 0.4s;
+      -moz-transition: 0.4s;
+      transition: 0.4s; }
+  header div {
+    position: relative;
+    width: 315px;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%); }
+    header div:after {
+      content: "";
+      display: table;
+      clear: both; }
+    header div h1 {
+      padding: 0;
+      margin: 0;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-align: right;
+      color: #6d2018; }
+    header div p {
+      color: #e74c3c;
+      text-align: center; }
+
+footer {
+  width: 100%;
+  height: 500px;
+  background: #121212; }
+  footer nav {
+    position: absolute;
+    right: 20px; }
+    footer nav a {
+      margin-left: 20px;
+      font-size: 16px;
+      -webkit-transition: 0.4s;
+      -moz-transition: 0.4s;
+      transition: 0.4s; }
+  footer div {
+    position: relative;
+    width: 315px;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%); }
+    footer div:after {
+      content: "";
+      display: table;
+      clear: both; }
+    footer div h1 {
+      padding: 0;
+      margin: 0;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-align: right;
+      color: #6d2018; }
+
+.index-about-wrap {
+  width: 100%;
+  background: #333333; }
+  .index-about-wrap h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0; }
+  .index-about-wrap .binery {
+    text-align: center;
+    color: #ddd; }
+  .index-about-wrap div {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .index-about-wrap div h4 {
+      margin: 0;
+      text-transform: uppercase;
+      text-align: right; }
