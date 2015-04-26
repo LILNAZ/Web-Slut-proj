@@ -1,7 +1,24 @@
 header
+	position: relative
 	width: 100%
 	height: 600px
-	background: $bg-color-1
+	background:
+		image: url("/assets/images/hero.jpg")
+		size: cover
+		position: top center
+		attachment: fixed
+	overflow: hidden
+
+	.fore-gram
+		height: 293px
+		width: 221px
+		background:
+			image: url("/assets/images/gram.png")
+			repeat: no-repeat
+			position: right bottom
+		position: absolute
+		left: 50%
+		margin-left: -480px
 
 	nav
 		position:  absolute
@@ -13,8 +30,7 @@ header
 			font-size: 16px
 			@include transition(0.4s)
 
-	div
-		@include clearfix
+	.logo
 		position: relative
 		width: 315px
 		margin: 0 auto
