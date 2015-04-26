@@ -134,35 +134,43 @@ header {
       text-align: center; }
 
 footer {
-  width: 100%;
-  height: 500px;
-  background: #121212; }
-  footer nav {
-    position: absolute;
-    right: 20px; }
-    footer nav a {
-      margin-left: 20px;
-      font-size: 16px;
-      -webkit-transition: 0.4s;
-      -moz-transition: 0.4s;
-      transition: 0.4s; }
-  footer div {
-    position: relative;
-    width: 315px;
-    margin: 0 auto;
-    top: 50%;
-    transform: translateY(-50%); }
-    footer div:after {
-      content: "";
-      display: table;
-      clear: both; }
-    footer div h1 {
-      padding: 0;
-      margin: 0;
-      font-weight: 300;
-      text-transform: uppercase;
-      text-align: right;
-      color: #6d2018; }
+  margin-top: 500px; }
+  footer .main-footer {
+    background: #121212;
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1; }
+    footer .main-footer nav {
+      position: absolute;
+      right: 20px;
+      bottom: 20px; }
+      footer .main-footer nav a {
+        margin-left: 20px;
+        font-size: 16px;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        transition: 0.4s; }
+    footer .main-footer div {
+      position: relative;
+      width: 315px;
+      margin: 0 auto;
+      top: 50%;
+      transform: translateY(-50%); }
+      footer .main-footer div:after {
+        content: "";
+        display: table;
+        clear: both; }
+      footer .main-footer div h1 {
+        padding: 0;
+        margin: 0;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: #6d2018; }
 
 .index-about-wrap {
   width: 100%;
@@ -185,3 +193,28 @@ footer {
       margin: 0;
       text-transform: uppercase;
       text-align: right; }
+
+.index-music-wrap {
+  width: 100%;
+  background: #5C5C5C; }
+  .index-music-wrap h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0; }
+  .index-music-wrap .binery {
+    text-align: center;
+    color: #ddd; }
+  .index-music-wrap div {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .index-music-wrap .music-soundcloud {
+    display: block;
+    width: 650px;
+    height: 400px;
+    margin: 0 auto;
+    border: 0;
+    padding-bottom: 40px; }

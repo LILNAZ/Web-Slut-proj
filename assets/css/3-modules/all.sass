@@ -33,31 +33,40 @@ header
 			text-align: center
 
 footer
-	width: 100%
-	height: 500px
-	background: $bg-color-1
+	margin-top: 500px
 
-	nav
-		position:  absolute
-		right: 20px
+	.main-footer
+		background: $bg-color-1
+		width: 100%
+		height: 500px
+		position: fixed
+		bottom: 0
+		left: 0
+		right: 0
+		z-index: -1
 
-		a
-			margin-left: 20px
-			font-size: 16px
-			@include transition(0.4s)
+		nav
+			position:  absolute
+			right: 20px
+			bottom: 20px
 
-	div
-		@include clearfix
-		position: relative
-		width: 315px
-		margin: 0 auto
-		top: 50%
-		transform:  translateY(-50%)
+			a
+				margin-left: 20px
+				font-size: 16px
+				@include transition(0.4s)
 
-		h1
-			padding: 0
-			margin: 0
-			font-weight: 300
-			text-transform: uppercase
-			text-align: right
-			color: darken(#c0392b, 20%)
+		div
+			@include clearfix
+			position: relative
+			width: 315px
+			margin: 0 auto
+			top: 50%
+			transform:  translateY(-50%)
+
+			h1
+				padding: 0
+				margin: 0
+				font-weight: 300
+				text-transform: uppercase
+				text-align: right
+				color: darken(#c0392b, 20%)
