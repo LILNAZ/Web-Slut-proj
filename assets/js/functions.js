@@ -7,4 +7,7 @@ $(window).scroll(function(){
 	$('.fore-gram').css({
 		'margin-top' : '' + wScroll*1.5 +'px'
 	});
+	$('.fore-gram').css({
+		'transform' : 'rotate('+ wScroll /25 +'deg)'
+	});
 });
