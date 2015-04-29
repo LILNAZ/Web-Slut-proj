@@ -260,3 +260,34 @@ footer {
       margin: 0;
       text-transform: uppercase;
       text-align: right; }
+
+.music-wrap {
+  width: 100%;
+  background: #5C5C5C; }
+  .music-wrap h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0; }
+  .music-wrap .binery {
+    text-align: center;
+    color: #ddd; }
+  .music-wrap .wrap {
+    width: 605px;
+    margin: 0 auto;
+    padding: 20px 0; }
+    .music-wrap .wrap div {
+      display: inline-block;
+      width: 300px;
+      height: 300px; }
+      .music-wrap .wrap div .music-soundcloud-big {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        border: 0; }
+      .music-wrap .wrap div .music-sounccloud-small {
+        display: inline-block;
+        width: 100%;
+        height: 50%;
+        border: 0; }
