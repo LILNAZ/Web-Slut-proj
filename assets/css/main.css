@@ -115,7 +115,8 @@ header {
     background-position: right bottom;
     position: absolute;
     left: 50%;
-    margin-left: -480px; }
+    margin-left: -480px;
+    z-index: 999999; }
   header nav {
     position: absolute;
     right: 20px;
@@ -138,9 +139,9 @@ header {
       font-weight: 300;
       text-transform: uppercase;
       text-align: right;
-      color: #6d2018; }
+      color: white; }
     header .logo p {
-      color: #e74c3c;
+      color: #999999;
       text-align: center; }
 
 footer {
@@ -182,7 +183,7 @@ footer {
         font-weight: 300;
         text-transform: uppercase;
         text-align: right;
-        color: #6d2018; }
+        color: white; }
 
 .index-about-wrap {
   width: 100%;
@@ -230,3 +231,32 @@ footer {
     margin: 0 auto;
     border: 0;
     padding-bottom: 40px; }
+
+.about-about-wrap {
+  width: 100%;
+  background: #333333; }
+  .about-about-wrap h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0; }
+  .about-about-wrap .binery {
+    text-align: center;
+    color: #ddd; }
+  .about-about-wrap div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .about-about-wrap div .music-soundcloud {
+      display: block;
+      float: right;
+      width: 270px;
+      height: 300px;
+      border: 0;
+      padding: 10px; }
+    .about-about-wrap div h4 {
+      margin: 0;
+      text-transform: uppercase;
+      text-align: right; }
