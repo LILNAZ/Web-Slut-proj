@@ -92,3 +92,53 @@ footer
 				text-transform: uppercase
 				text-align: right
 				color: white
+
+@media screen and (max-width: 1020px)
+	header
+
+		.fore-gram
+			margin-left: -300px
+			z-index: 5
+
+		.logo
+			z-index: 20
+
+@media screen and (max-width: 540px)
+	header
+		.fore-gram
+			margin-left: -100px
+		.logo
+			width: 206px
+			h1
+				font-size: 45px
+		nav
+			z-index: 10
+			width: 172px
+			right: 0
+			left: 0
+			top: 40px
+			margin: 0 auto
+
+			a
+				margin-left: 10px
+	footer
+		.main-footer
+
+			nav
+				position:  absolute
+				right: 20px
+				bottom: 20px
+
+				a
+					margin-left: 20px
+					font-size: 16px
+					@include transition(0.4s)
+
+			div
+				width: 206px
+
+				h1
+					font-size: 45px
+
+
+
