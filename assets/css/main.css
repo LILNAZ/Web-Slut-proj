@@ -222,6 +222,24 @@ footer {
     width: 206px; }
     footer .main-footer div h1 {
       font-size: 45px; } }
+@media screen and (max-width: 300px) {
+  header .logo {
+    width: 153px; }
+    header .logo h1 {
+      font-size: 38px; }
+
+  footer .main-footer nav {
+    position: absolute;
+    right: 0;
+    left: 20px;
+    bottom: 20px; }
+    footer .main-footer nav a {
+      margin-left: 10px;
+      font-size: 12px; }
+  footer .main-footer div {
+    width: 153px; }
+    footer .main-footer div h1 {
+      font-size: 38px; } }
 .index-about-wrap {
   width: 100%;
   background: #333333; }
@@ -274,12 +292,12 @@ footer {
     width: 450px; } }
 @media screen and (max-width: 560px) {
   .index-about-wrap .binery {
-    font-size: 12px; }
+    font-size: 10px; }
   .index-about-wrap div {
     max-width: 350px; }
 
   .index-music-wrap .binery {
-    font-size: 12px; }
+    font-size: 10px; }
   .index-music-wrap div {
     max-width: 350px; }
   .index-music-wrap .music-soundcloud {
@@ -294,6 +312,16 @@ footer {
   .index-music-wrap .music-soundcloud {
     width: 200px;
     height: 300px; } }
+@media screen and (max-width: 300px) {
+  .index-about-wrap .binery {
+    font-size: 8px; }
+  .index-about-wrap div {
+    max-width: 200px; }
+
+  .index-music-wrap .binery {
+    font-size: 8px; }
+  .index-music-wrap div {
+    max-width: 200px; } }
 .about-about-wrap {
   width: 100%;
   background: #333333; }
@@ -343,6 +371,9 @@ footer {
 @media screen and (max-width: 450px) {
   .about-about-wrap div {
     max-width: 250px; } }
+@media screen and (max-width: 300px) {
+  .about-about-wrap .binery {
+    font-size: 8px; } }
 .music-wrap {
   width: 100%;
   background: #5C5C5C; }
@@ -380,11 +411,19 @@ footer {
     .music-wrap .wrap div {
       padding: 20px 0;
       width: 400px; } }
-.music-wrap .binery {
-  font-size: 12px; }
-
+@media screen and (max-width: 560px) {
+  .music-wrap .binery {
+    font-size: 12px; } }
 @media screen and (max-width: 500px) {
   .music-wrap .wrap {
     width: 300px; }
     .music-wrap .wrap div {
       width: 300px; } }
+@media screen and (max-width: 300px) {
+  .music-wrap .wrap {
+    width: 200px; }
+    .music-wrap .wrap div {
+      padding: 0;
+      width: 200px; }
+  .music-wrap .binery {
+    font-size: 8px; } }
