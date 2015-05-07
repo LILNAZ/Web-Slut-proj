@@ -392,6 +392,13 @@ footer {
   .music-wrap .binery {
     text-align: center;
     color: #ddd; }
+  .music-wrap h4 {
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding-bottom: 20px; }
+  .music-wrap .wrap-dropdown {
+    display: none; }
   .music-wrap .wrap {
     width: 805px;
     margin: 0 auto;

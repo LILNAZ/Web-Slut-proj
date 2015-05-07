@@ -16,3 +16,13 @@ $(window).scroll(function(){
 		'transform' : 'rotate('+ wScroll /25 +'deg)'
 	});
 });
+
+
+$( "h4" ).click(function() {
+	$('.wrap-dropdown').css({
+		'display' : 'block'
+	})
+	$('h4').css({
+		'display' : 'none'
+	})
+});
