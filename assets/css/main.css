@@ -393,12 +393,12 @@ footer {
     text-align: center;
     color: #ddd; }
   .music-wrap .wrap {
-    width: 605px;
+    width: 805px;
     margin: 0 auto;
     padding: 20px 0; }
     .music-wrap .wrap div {
       display: inline-block;
-      width: 300px;
+      width: 400px;
       height: 300px; }
       .music-wrap .wrap div .music-soundcloud-big {
         display: inline-block;
@@ -411,6 +411,11 @@ footer {
         height: 50%;
         border: 0; }
 
+@media screen and (max-width: 900px) {
+  .music-wrap .wrap {
+    width: 605px; }
+    .music-wrap .wrap div {
+      width: 300px; } }
 @media screen and (max-width: 650px) {
   .music-wrap .wrap {
     width: 400px; }
