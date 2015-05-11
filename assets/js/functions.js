@@ -18,11 +18,11 @@ $(window).scroll(function(){
 });
 
 
-$( "h4" ).click(function() {
+$( ".more" ).click(function() {
 	$('.wrap-dropdown').css({
 		'display' : 'block'
 	})
-	$('h4').css({
+	$('.more').css({
 		'display' : 'none'
 	})
 });
